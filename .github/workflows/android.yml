@@ -59,6 +59,7 @@ jobs:
           haxelib install hxcpp
           haxelib git flxanimate https://github.com/Dot-Stuff/flxanimate
           haxelib git hxWebView https://github.com/SanicBTW/HxWebView
+          haxelib git HxWebView https://github.com/SanicBTW/HxWebView
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib git extension-androidtools https://github.com/MAJigsaw77/extension-androidtools.git c0f09f2399780091de02eb40caf5ac4f695f9cac
       - name: Configure Android
