@@ -1,7 +1,7 @@
 
 # Credits to Codename Engine's Workflow!
 
-name: Windows Build
+name: Android Build
 on:
   workflow_dispatch:
 jobs:
