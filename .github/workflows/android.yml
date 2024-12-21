@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    name: Windows Build
+    name: Android Build
     permissions: write-all
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Pulling the new commit
         uses: actions/checkout@v2
